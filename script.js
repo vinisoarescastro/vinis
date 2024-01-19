@@ -30,7 +30,7 @@ function horas() {
     msg.innerHTML = `Agora são ${horaFormatada}.`;
 }
 
-setInterval(backgroundColor, 100);
+setInterval(backgroundColor, 1000);
 setInterval(horas, 1000);
 
 
