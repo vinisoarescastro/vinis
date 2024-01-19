@@ -19,7 +19,7 @@ function carregar() {
     if ( horas >= 6 && horas < 12) {
         img.src = 'ft-dia.png';
         document.body.style.background = '#e0dfdc'
-    } else if ( horas >= 12 && horas < 18) {
+    } else if ( horas >= 12 && horas < 13) {
         img.src = 'ft-tarde.png';
         document.body.style.background = '#bc9c03'
     } else {
