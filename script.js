@@ -17,13 +17,13 @@ function carregar() {
     msg.innerHTML = `Olá, agora são ${horaFormatada}.`;
 
     if ( horas >= 6 && horas < 12) {
-        img.src = 'img/ft-dia.png';
+        img.src = 'ft-dia.png';
         document.body.style.background = '#e0dfdc'
     } else if ( horas >= 12 && horas < 18) {
-        img.src = 'img/ft-tarde.png';
+        img.src = 'ft-tarde.png';
         document.body.style.background = '#bc9c03'
     } else {
-        img.src = 'img/ft-noite.png';
+        img.src = 'ft-noite.png';
         document.body.style.background = '#090e0c'
     }
 
