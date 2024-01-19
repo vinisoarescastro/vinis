@@ -1,39 +1,44 @@
-* {
+* {                                 /* * = tudo */
     margin: 0;
     padding: 0;
     border: 0;
 }
 
-html, body {
-    height: 100%;
+html, body {                        
+    height: 100%;                   /* 100% = 100% da tela */
 }
 
 body {
-    font: normal 14pt Arial;
+    font: normal 14pt Arial;        /* fonte, tamanho e tipo */
     color: #ffffff;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: flex;                  /* flex = flexivel */
+    justify-content: center;        /* justify-content = alinhamento horizontal */
+    align-items: center;            /* align-items = alinhamento vertical */
 } 
 
 header {
-    text-align: center;
+    text-align: center;             /* text-align = alinhamento de texto */
 }
 
 header h1 {
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px 10px 0px;       /* topo direita baixo esquerda */
 }
 
 section {
-    max-width: 300px;
-    min-width: 300px;
-    min-height: 300px ;
-    text-align: center;
+    max-width: 300px;               /* max-width = largura maxima */
+    min-width: 300px;               /* min-width = largura minima */
+    min-height: 300px ;             /* min-height = altura minima */
+    text-align: center;             /* text-align = alinhamento de texto */
     
     background: #ffffff;
-    border-radius: 15px;
-    box-shadow: 10px 10px 25px #0000005f;
+    box-shadow: 10px 10px 25px #0000005f;   /* lado direito, lado inferior, desfoque, cor */
+
+    /* border-radius: 15px; */
+    border-top-right-radius: 15px;          /* top-right-radius = borda superior direita */
+    border-top-left-radius: 15px;           /* top-left-radius = borda superior esquerda */    
+    border-bottom-left-radius: 150px;       /* bottom-left-radius = borda inferior esquerda */
+    border-bottom-right-radius: 150px;      /* bottom-right-radius = borda inferior direita */
 }
 
 section img {
@@ -55,11 +60,11 @@ div p#msg2 {
     font: normal 14pt Arial;
 }
 
-img {
+img {                                   /* img = imagem. imagem vinicius */
     margin: 15px;
     padding: 15px;
-    max-width: 250px;
-    border-radius: 50%;
+    max-width: 250px;                   /* max-width = largura maxima da img */
+    border-radius: 50%;                 /* border-radius = borda arredondada */
 }
 
 footer {
