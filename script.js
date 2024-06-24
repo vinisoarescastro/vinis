@@ -30,43 +30,5 @@ function horas() {                                  // função que mostra as ho
     msg.innerHTML = `Agora são ${horaFormatada}.`;            // adiciona a hora formatada ao elemento p com o format string
 }
 
-setInterval(backgroundColor, 2000);                           // chama a função backgroundColor a cada 2 segundos
+setInterval(backgroundColor, 1000);                           // chama a função backgroundColor a cada 2 segundos
 setInterval(horas, 1000);                                     // chama a função horas a cada 1 segundo
-
-
-/*
-
-function carregar() {
-
-    let data = new Date();
-    let horas = data.getHours();
-    let minutos = data.getMinutes();
-    let segundos = data.getSeconds();
- 
-    horas = (horas < 10) ? '0' + horas : horas ;
-    minutos = (minutos < 10) ? '0' + minutos : minutos ;
-    segundos = (segundos < 10) ? '0' + segundos : segundos ;
-
-    let horaFormatada = `${horas}:${minutos}:${segundos}`;
-
-    let msg = document.querySelector('p#msg');
-    let img = document.querySelector('img#img');
-
-    msg.innerHTML = `Olá, agora são ${horaFormatada}.`;
-
-    if ( horas >= 6 && horas < 12) {
-        img.src = 'ft-dia.png';
-        document.body.style.background = '#e0dfdc'
-    } else if ( horas >= 12 && horas < 18) {
-        img.src = 'ft-tarde.png';
-        document.body.style.background = '#bc9c03'
-    } else {
-        img.src = 'ft-noite.png';
-        document.body.style.background = '#090e0c'
-    }
-
-}
-
-setInterval (carregar, 1000);
-
-*/
